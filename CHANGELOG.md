@@ -1,5 +1,11 @@
 # @felds/npm-package-pipeline
 
+## 1.1.1
+
+### Patch Changes
+
+- b70c3e8: Not a patch
+
 ## 1.1.0
 
 ### Minor Changes
