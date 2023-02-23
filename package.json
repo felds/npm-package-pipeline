@@ -1,8 +1,12 @@
 {
 	"name": "@felds/npm-package-pipeline",
 	"license": "MIT",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
 	"scripts": {
-		"build": "tsup index.ts --format cjs,esm --dts"
+		"build": "tsup index.ts --format cjs,esm --dts",
+		"lint": "tsc"
 	},
 	"devDependencies": {
 		"tsup": "^6.6.3",
