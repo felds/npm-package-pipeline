@@ -1,5 +1,12 @@
 # @felds/npm-package-pipeline
 
+## 1.8.1
+
+### Patch Changes
+
+- 1f11033: not a pathc either
+- b70c3e8: Not a patch
+
 ## 1.1.0
 
 ### Minor Changes
