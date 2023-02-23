@@ -7,7 +7,8 @@
 	"scripts": {
 		"build": "tsup index.ts --format cjs,esm --dts",
 		"lint": "tsc",
-		"prepublish": "pnpm run build"
+		"prepublish": "pnpm run build",
+		"eitaporra": "npm publish --access public"
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.26.0",
