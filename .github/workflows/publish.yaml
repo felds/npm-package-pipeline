@@ -20,6 +20,8 @@ jobs:
           node-version: 16.x
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: npm publish
+      - run: |
+          npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
+          npm publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
